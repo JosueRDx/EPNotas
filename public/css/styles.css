@@ -1,0 +1,157 @@
+/* Estilos generales */
+
+body {
+    font-family: 'figtree', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilos para la navegación */
+
+nav {
+    background-color: #007bff;
+    color: #fff;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+}
+
+nav {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 0; 
+}
+
+nav .container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+nav .branding,
+nav .navigation-links {
+    display: flex;
+    align-items: center;
+}
+
+nav .branding {
+    margin-right: auto; 
+}
+
+nav .navigation-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px; 
+}
+
+nav .navigation-links a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #3490dc;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos para formularios */
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Contenido de la página */
+.content-container {
+    margin: 0 auto; 
+    width: 80%; 
+    max-width: 800px;
+    text-align: center; 
+}
+
+.content-container ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.content-container ul li {
+    text-align: center; 
+    margin-bottom: 10px; 
+}
+
+/* Estilos para el pie de página */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    padding: 20px 0;
+}
